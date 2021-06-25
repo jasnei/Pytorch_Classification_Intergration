@@ -4,4 +4,7 @@
 .ipynb_checkpoints/
 .vscode/
 __pycache__/
-My_data/
+My_data/*.txt
+My_data/Test_set/
+My_data/Train_set/
+checkpoints/
