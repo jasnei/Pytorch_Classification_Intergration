@@ -1,0 +1,14 @@
+albumentations==0.5.1
+imgaug==0.4.0
+matplotlib
+numpy==1.18.1
+opencv-python==4.4.0.46
+Pillow
+scikit-image==0.17.2
+scikit-learn
+scipy
+tensorboard=2.3.0
+torch==1.6.0
+torchsummary==1.5.1
+torchtoolbox==0.1.5
+torchvision==0.7.0
