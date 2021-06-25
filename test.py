@@ -10,3 +10,4 @@ model = resNeXt18_32x4d_SE(num_classes=4)
 summary(model, (3, 224, 224), device='cpu')
 
 import numpy as np
+print(np.random.random)
