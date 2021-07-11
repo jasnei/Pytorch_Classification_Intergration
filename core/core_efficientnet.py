@@ -97,7 +97,6 @@ def train(model, train_loader, device, loss_fn, optimizer, train_total, epoch):
         batch_size = labels.size(0)
         total += batch_size
     train_acc = train_acc / train_total
-    train_loss = train_loss / train_total
     
     return train_acc, train_loss
     
@@ -120,6 +119,5 @@ def valid(model, val_loader, device, loss_fn, optimizer, valid_total, epoch):
             batch_correct = (pred_labels==labels).squeeze().sum().item()
             valid_acc += batch_correct
     valid_acc = valid_acc / valid_total
-    valid_loss = valid_loss / valid_total
 
     return valid_acc, valid_loss
